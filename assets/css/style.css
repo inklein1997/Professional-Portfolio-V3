@@ -11,24 +11,26 @@ h2 {
     color: white;
 }
 
-h1 {
-    font-size: 60px;
-}
-
 body {
     width: 100vw;
     background-color: var(--black);
     overflow-x: hidden;
 }
 
-/* Floor and Cieling Items */
-
-
-
 #header {
     background-color: var(--orangebrown);
+    margin-top: 15vh;
+    height:22vh;
+    width:60vw;
 }
 
+h1 {
+    font-size: 10vh;
+}
+
+#bannertitle {
+    font-size: 2vh;
+}
 
 
 @media screen and (max-width: 991px) {
