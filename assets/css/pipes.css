@@ -6,7 +6,7 @@
     height: 16vh;;
 }
 
-#pipe1 {
+/* #pipe1 {
     z-index: 1;
     position: absolute;
     transform: translate(7vw, 63vh);
@@ -18,7 +18,7 @@
     background-repeat: repeat-y;
     height:60vh;
     width:130px;
-}
+} */
 
 #pipe2 {
     z-index: 1;

@@ -1,7 +1,7 @@
 #ground-floor {
     background: url('../images/outside-ground.jpg');
-    background-repeat: repeat-x;
-    height:5.9vh
+    background-repeat: repeat;
+    height:11.8vh
 }
 
 #underground-cieling {
@@ -18,14 +18,14 @@
 
 #underwater-cieling {
     background: url('../images/underwater-cieling.jpg');
-    background-repeat: repeat-x;
-    height:5.3vh
+    background-repeat: repeat;
+    height:10.6vh
 }
 
 #underwater-floor {
     background: url('../images/underwater-floor.jpg');
-    background-repeat: repeat-x;
-    height:5.5vh
+    background-repeat: repeat;
+    height:11vh
 }
 
 #boss-cieling {
@@ -37,6 +37,12 @@
 #boss-floor {
     background: url('../images/boss-floor.jpg');
     background-repeat: repeat-x;
+    height:11vh
+}
+
+#lava {
+    background: url('../images/lava.jpg');
+    background-repeat: repeat-x;
     height:5.5vh
 }
 
@@ -44,19 +50,22 @@
 
 #ground-background {
     background-color: var(--skyblue);
-    height:80vh;
+    height:88.2vh;
     position: relative;
 }
 
-#underground-background,
+#underground-background {
+    background-color: var(--black);
+    height:83.5vh;
+    position: relative;
+}
+
 #boss-background {
     background-color: var(--black);
-    height:80vh;
-    position: relative;
+    height:77.6vh
 }
-
 #underwater-background {
     background-color: var(--waterblue);
-    height:80vh;
+    height:83.7vh;
     position:relative;
 }

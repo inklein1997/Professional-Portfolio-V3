@@ -26,9 +26,7 @@ body {
 
 
 #header {
-    margin-top: 20vh;
-    margin-right: 7vw;
-    /* background-color: var(--orangebrown); */
+    background-color: var(--orangebrown);
 }
 
 
