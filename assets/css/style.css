@@ -92,7 +92,7 @@ body {
 #pipe1 {
     z-index: 1;
     position: absolute;
-    transform: translate(10vw, 600px);
+    transform: translate(7vw, 63vh);
 }
 
 .pipehead { 
