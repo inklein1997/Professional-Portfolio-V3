@@ -7,3 +7,49 @@
 h1 { 
     font-family: 'Press Start 2P', cursive;
 }
+
+body {
+    width: 100vw;
+    background-color: var(--black);
+}
+#ground-floor {
+    background: url('../images/outside-ground.jpg');
+    background-repeat: repeat-x;
+    height:53px
+}
+
+#underground-cieling {
+    background: url('../images/underground-cieling.jpg');
+    background-repeat: repeat-x;
+    height:53px
+}
+
+#underground-floor {
+    background: url('../images/underground-floor.jpg');
+    background-repeat: repeat-x;
+    height:49px
+}
+
+#underwater-cieling {
+    background: url('../images/underwater-cieling.jpg');
+    background-repeat: repeat-x;
+    height:49px
+}
+
+#underwater-floor {
+    background: url('../images/underwater-floor.jpg');
+    background-repeat: repeat-x;
+    height:49px
+}
+
+#boss-cieling {
+    background: url('../images/boss-cieling.jpg');
+    background-repeat: repeat-x;
+    height:47px
+}
+
+#boss-floor {
+    background: url('../images/boss-floor.jpg');
+    background-repeat: repeat-x;
+    height:53px
+}
