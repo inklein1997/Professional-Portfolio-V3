@@ -1,0 +1,9 @@
+:root {
+    --black: #000000;
+    --skyblue: #5D94FB;
+    --waterblue: #4342FF;
+}
+
+h1 { 
+    font-family: 'Press Start 2P', cursive;
+}
