@@ -4,8 +4,14 @@
     --waterblue: #4342FF;
 }
 
-h1 { 
+h1,
+h2 { 
     font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
 }
 
 body {
@@ -61,16 +67,30 @@ body {
 
 #ground-background {
     background-color: var(--skyblue);
-    height:800px
+    height:80vh;
+    position: relative;
 }
 
 #underground-background,
 #boss-background {
     background-color: var(--black);
-    height:800px
+    height:80vh;
+    position: relative;
 }
 
 #underwater-background {
     background-color: var(--waterblue);
-    height:800px
+    height:80vh;
+    position:relative;
+}
+
+#header {
+    margin-top: 20vh;
+    margin-left: 7vw;
+}
+
+@media screen and (max-width: 991px) {
+    #header {
+        margin-left:0
+    }
 }
