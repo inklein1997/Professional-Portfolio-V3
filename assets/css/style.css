@@ -89,8 +89,35 @@ body {
     margin-left: 7vw;
 }
 
+#pipe1 {
+    z-index: 1;
+    position: absolute;
+    transform: translate(10vw, 600px);
+}
+
+.pipehead { 
+    width: 150px;
+}
+
+.pipebase {
+    background: url('../images/pipe_pieces/pipe-base-vertical.jpg');
+    background-size: 130px;
+    background-repeat: repeat-y;
+    height:60vh;
+    width:130px
+
+}
+
+
+@media screen and (max-width: 768px) {
+    #pipe1 {
+        display:none
+    }
+}
+
 @media screen and (max-width: 991px) {
     #header {
         margin-left:0
     }
 }
+
