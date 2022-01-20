@@ -12,6 +12,9 @@ body {
     width: 100vw;
     background-color: var(--black);
 }
+
+/* Floor and Cieling Items */
+
 #ground-floor {
     background: url('../images/outside-ground.jpg');
     background-repeat: repeat-x;
@@ -52,4 +55,22 @@ body {
     background: url('../images/boss-floor.jpg');
     background-repeat: repeat-x;
     height:53px
+}
+
+/* section backgrounds */
+
+#ground-background {
+    background-color: var(--skyblue);
+    height:800px
+}
+
+#underground-background,
+#boss-background {
+    background-color: var(--black);
+    height:800px
+}
+
+#underwater-background {
+    background-color: var(--waterblue);
+    height:800px
 }
