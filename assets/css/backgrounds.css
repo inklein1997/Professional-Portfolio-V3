@@ -1,0 +1,62 @@
+#ground-floor {
+    background: url('../images/outside-ground.jpg');
+    background-repeat: repeat-x;
+    height:5.9vh
+}
+
+#underground-cieling {
+    background: url('../images/underground-cieling.jpg');
+    background-repeat: repeat-x;
+    height:5.9vh
+}
+
+#underground-floor {
+    background: url('../images/underground-floor.jpg');
+    background-repeat: repeat-x;
+    height:5.3vh
+}
+
+#underwater-cieling {
+    background: url('../images/underwater-cieling.jpg');
+    background-repeat: repeat-x;
+    height:5.3vh
+}
+
+#underwater-floor {
+    background: url('../images/underwater-floor.jpg');
+    background-repeat: repeat-x;
+    height:5.5vh
+}
+
+#boss-cieling {
+    background: url('../images/boss-cieling.jpg');
+    background-repeat: repeat-x;
+    height:5.9vh
+}
+
+#boss-floor {
+    background: url('../images/boss-floor.jpg');
+    background-repeat: repeat-x;
+    height:5.5vh
+}
+
+/* section backgrounds */
+
+#ground-background {
+    background-color: var(--skyblue);
+    height:80vh;
+    position: relative;
+}
+
+#underground-background,
+#boss-background {
+    background-color: var(--black);
+    height:80vh;
+    position: relative;
+}
+
+#underwater-background {
+    background-color: var(--waterblue);
+    height:80vh;
+    position:relative;
+}

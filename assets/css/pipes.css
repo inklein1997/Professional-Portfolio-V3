@@ -1,0 +1,43 @@
+.pipeheadvertical { 
+    width: 150px;
+}
+
+.pipeheadhorizontal { 
+    height: 16vh;;
+}
+
+#pipe1 {
+    z-index: 1;
+    position: absolute;
+    transform: translate(7vw, 63vh);
+}
+
+#pipebase1 {
+    background: url('../images/pipe_pieces/pipe-base-vertical.jpg');
+    background-size: 130px;
+    background-repeat: repeat-y;
+    height:60vh;
+    width:130px;
+}
+
+#pipe2 {
+    z-index: 1;
+    position:absolute;
+    transform:translateY(63.5vh);
+    width:100vw;
+    float: right;
+}
+
+#pipebase2 {
+    background: url('../images/pipe_pieces/pipe-base-open-from-left-side.jpg');
+    background-size: 1vh;
+    background-repeat: repeat-x;
+    width: 8vw;
+    height:13.9vh;
+}
+
+@media screen and (max-width: 768px) {
+    #pipe1 {
+        display:none
+    }
+}

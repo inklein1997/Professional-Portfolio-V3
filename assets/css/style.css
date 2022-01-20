@@ -2,6 +2,7 @@
     --black: #000000;
     --skyblue: #5D94FB;
     --waterblue: #4342FF;
+    --orangebrown: #D0510C;
 }
 
 h1,
@@ -17,103 +18,20 @@ h1 {
 body {
     width: 100vw;
     background-color: var(--black);
+    overflow-x: hidden;
 }
 
 /* Floor and Cieling Items */
 
-#ground-floor {
-    background: url('../images/outside-ground.jpg');
-    background-repeat: repeat-x;
-    height:53px
-}
 
-#underground-cieling {
-    background: url('../images/underground-cieling.jpg');
-    background-repeat: repeat-x;
-    height:53px
-}
-
-#underground-floor {
-    background: url('../images/underground-floor.jpg');
-    background-repeat: repeat-x;
-    height:49px
-}
-
-#underwater-cieling {
-    background: url('../images/underwater-cieling.jpg');
-    background-repeat: repeat-x;
-    height:49px
-}
-
-#underwater-floor {
-    background: url('../images/underwater-floor.jpg');
-    background-repeat: repeat-x;
-    height:49px
-}
-
-#boss-cieling {
-    background: url('../images/boss-cieling.jpg');
-    background-repeat: repeat-x;
-    height:47px
-}
-
-#boss-floor {
-    background: url('../images/boss-floor.jpg');
-    background-repeat: repeat-x;
-    height:53px
-}
-
-/* section backgrounds */
-
-#ground-background {
-    background-color: var(--skyblue);
-    height:80vh;
-    position: relative;
-}
-
-#underground-background,
-#boss-background {
-    background-color: var(--black);
-    height:80vh;
-    position: relative;
-}
-
-#underwater-background {
-    background-color: var(--waterblue);
-    height:80vh;
-    position:relative;
-}
 
 #header {
     margin-top: 20vh;
-    margin-left: 7vw;
-}
-
-#pipe1 {
-    z-index: 1;
-    position: absolute;
-    transform: translate(7vw, 63vh);
-}
-
-.pipehead { 
-    width: 150px;
-}
-
-.pipebase {
-    background: url('../images/pipe_pieces/pipe-base-vertical.jpg');
-    background-size: 130px;
-    background-repeat: repeat-y;
-    height:60vh;
-    width:130px
-
+    margin-right: 7vw;
+    /* background-color: var(--orangebrown); */
 }
 
 
-@media screen and (max-width: 768px) {
-    #pipe1 {
-        display:none
-    }
-}
 
 @media screen and (max-width: 991px) {
     #header {
