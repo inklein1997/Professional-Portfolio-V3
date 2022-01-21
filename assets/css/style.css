@@ -32,7 +32,7 @@ body {
 
 #header {
     background-color: var(--orangebrown);
-    margin:30vh auto 1vh auto;
+    margin:17vh auto 1vh auto;
     width: auto;
     z-index: 2;
     box-shadow: 5px 5px black, -5px -5px white ;

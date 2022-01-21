@@ -50,3 +50,16 @@
     transform: translate(54vw, 52vh);
 }
 
+#chatbox {
+    position:absolute;
+    z-index: 1;
+    transform: translate(67vw, 46vh);
+    width:21vw;
+    height:17vh
+}
+
+#chatboxcontent {
+    position: absolute;
+    z-index: 2;
+    transform: translate(68vw, 49vh);
+}
