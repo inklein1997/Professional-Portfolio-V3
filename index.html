@@ -16,42 +16,55 @@
 </head>
 
 <body>
-    <!-- <div>
-            <div id=ground-background class='d-flex flex-column'>
-                <div id="header" class="d-flex flex-column justify-content-center p-4">
-                    <h2 class='fs-5'>Full Stack Web Developer</h2>
-                    <h1>Michael Klein</h1>
-                </div>
-                <div class='center'>
-                    <a><h3 class='mushroom-hover'>1 PROJECTS</h3></a>
-                    <a><h3 class='mushroom-hover'>2 ABOUT ME</h3></a>
-                    <a><h3 class='mushroom-hover'>3 LINKS</h3></a>
-                    <a><h3 class='mushroom-hover'>4 CONTACT ME</h3></a>
-                </div>
+    <div>
+        <div id=ground-background class='d-flex flex-column'>
+            <div id="header" class="d-flex flex-column justify-content-center p-4">
+                <h2 class='fs-5'>Full Stack Web Developer</h2>
+                <h1>Michael Klein</h1>
             </div>
-            <div id=ground-floor></div>
-        </div> -->
+            <div class='center'>
+                <a>
+                    <h3 class='mushroom-hover'>1 PROJECTS</h3>
+                </a>
+                <a>
+                    <h3 class='mushroom-hover'>2 ABOUT ME</h3>
+                </a>
+                <a>
+                    <h3 class='mushroom-hover'>3 CONTACT ME</h3>
+                </a>
+            </div>
+        </div>
+        <div id=ground-floor></div>
+    </div>
     <div>
         <div id='underground-cieling' class=projects></div>
         <div id=underground-background>
+            <div id=pipe2 class='d-flex justify-content-end'>
+                <img class=pipeheadhorizontal src="assets/images/pipe_pieces/pipe-head-open-from-left.png">
+                <div class='align-self-center' id="pipebase2"></div>
+            </div>
+            <div id=pipe3 class='d-flex justify-content-start'>
+                <div class='align-self-center' id="pipebase3"></div>
+                <img class=pipeheadhorizontal src="assets/images/pipe_pieces/pipe-head-open-from-right.png">
+            </div>
             <div id='allProjects' class='d-flex flex-wrap gap-4'>
-                <div id='project1' class='project' data-bs-toggle='modal' data-bs-target='#MoodyFoodyModal'>
-                    <h3>MoodyFoody</h3>
+                <div id='project1' class='project d-flex justify-content-center' data-bs-toggle='modal' data-bs-target='#MoodyFoodyModal'>
+                    <h3 class='fs-5 text-center text-break align-self-center'>MoodyFoody</h3>
                 </div>
-                <div id='project2' class='project' data-bs-toggle='modal' data-bs-target='#WeatherDashboardModal'>
-                    <h3>Weather Dashboard</h3>
+                <div id='project2' class='project d-flex justify-content-center' data-bs-toggle='modal' data-bs-target='#WeatherDashboardModal'>
+                    <h3 class='fs-5 text-center text-break align-self-center'>Weather Dashboard</h3>
                 </div>
-                <div id='project3' class='project' data-bs-toggle='modal' data-bs-target='#iPhoneStopwatchCloneModal'>
-                    <h3>iPhone Stopwatch Clone</h3>
+                <div id='project3' class='project d-flex justify-content-center' data-bs-toggle='modal' data-bs-target='#iPhoneStopwatchCloneModal'>
+                    <h3 class='fs-5 text-center text-break align-self-center'>iPhone Stopwatch Clone</h3>
                 </div>
-                <div id='project4' class='project' data-bs-toggle='modal' data-bs-target='#JavascriptModal'>
-                    <h3>JavaScript Quiz</h3>
+                <div id='project4' class='project d-flex justify-content-center' data-bs-toggle='modal' data-bs-target='#JavascriptModal'>
+                    <h3 class='fs-5 text-center text-break align-self-center'>JavaScript Quiz</h3>
                 </div>
-                <div id='project5' class='project' data-bs-toggle='modal' data-bs-target='#JavascriptModal'>
-                    <h3>JavaScript Quiz</h3>
+                <div id='project5' class='project d-flex justify-content-center' data-bs-toggle='modal' data-bs-target='#JavascriptModal'>
+                    <h3 class='fs-5 text-center text-break align-self-center'>JavaScript Quiz</h3>
                 </div>
-                <div id='project6' class='project' data-bs-toggle='modal' data-bs-target='#JavascriptModal'>
-                    <h3>JavaScript Quiz</h3>
+                <div id='project6' class='project d-flex justify-content-center' data-bs-toggle='modal' data-bs-target='#JavascriptModal'>
+                    <h3 class='fs-5 text-center text-break align-self-center'>JavaScript Quiz</h3>
                 </div>
             </div>
         </div>
@@ -74,8 +87,7 @@
         <div class="modal-dialog modal-xl">
             <div class="modal-content p-4">
                 <div class='row'>
-                    <img class='col-4'
-                    src="assets/images/place-holder.jpg">
+                    <img class='col-4' src="assets/images/place-holder.jpg">
                     <div class="col-8">
                         <div class='d-flex justify-content-between align-items-start'>
                             <h2>MoodyFoody</h2>
@@ -94,8 +106,7 @@
         <div class="modal-dialog modal-xl">
             <div class="modal-content p-4">
                 <div class='row'>
-                    <img class='col-4'
-                    src="assets/images/place-holder.jpg">
+                    <img class='col-4' src="assets/images/place-holder.jpg">
                     <div class="col-8">
                         <div class='d-flex justify-content-between align-items-start'>
                             <h2>MoodyFoody</h2>
@@ -114,8 +125,7 @@
         <div class="modal-dialog modal-xl">
             <div class="modal-content p-4">
                 <div class='row'>
-                    <img class='col-4'
-                    src="assets/images/place-holder.jpg">
+                    <img class='col-4' src="assets/images/place-holder.jpg">
                     <div class="col-8">
                         <div class='d-flex justify-content-between align-items-start'>
                             <h2>MoodyFoody</h2>
@@ -134,8 +144,7 @@
         <div class="modal-dialog modal-xl">
             <div class="modal-content p-4">
                 <div class='row'>
-                    <img class='col-4'
-                    src="assets/images/place-holder.jpg">
+                    <img class='col-4' src="assets/images/place-holder.jpg">
                     <div class="col-8">
                         <div class='d-flex justify-content-between align-items-start'>
                             <h2>MoodyFoody</h2>
@@ -165,7 +174,3 @@
             <img class=pipeheadvertical src="assets/images/pipe_pieces/pipe-head-bottom.png">
         </div> -->
 
-<!-- <div id=pipe2 class='d-flex justify-content-end'>
-                <img class=pipeheadhorizontal src="assets/images/pipe_pieces/pipe-head-open-from-left.png">
-                <div class='align-self-center' id="pipebase2"></div>
-            </div> -->

@@ -23,13 +23,29 @@
 #pipe2 {
     z-index: 1;
     position:absolute;
-    transform:translateY(63.5vh);
+    transform:translateY(67vh);
     width:100vw;
     float: right;
 }
 
 #pipebase2 {
     background: url('../images/pipe_pieces/pipe-base-open-from-left-side.jpg');
+    background-size: 1vh;
+    background-repeat: repeat-x;
+    width: 8vw;
+    height:13.9vh;
+}
+
+#pipe3 {
+    z-index: 1;
+    position:absolute;
+    transform:translateY(67vh);
+    width:100vw;
+    /* float: left; */
+}
+
+#pipebase3 {
+    background: url('../images/pipe_pieces/pipe-base-open-from-right-side.jpg');
     background-size: 1vh;
     background-repeat: repeat-x;
     width: 8vw;
