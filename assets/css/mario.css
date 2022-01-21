@@ -1,0 +1,5 @@
+#mario {
+    position: absolute;
+    z-index: 3;
+    transform: translate(82vw, 78.9vh)
+}

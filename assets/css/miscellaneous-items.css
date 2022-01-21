@@ -1,0 +1,25 @@
+/* GROUND ITEMS */
+#cloud1 {
+    position: absolute;
+    z-index: 1;
+    transform: translate(14vw, 12vh);
+}
+
+#cloud2 {
+    position: absolute;
+    z-index: 1;
+    transform: translate(82vw, 31vh);
+}
+
+#hill1 {
+    position:absolute;
+    z-index: 1;
+    transform: translate(80vw, 74.4vh);
+}
+
+#bush1 {
+    position:absolute;
+    z-index: 1;;
+    transform: translate(55vw, 81.9vh);
+}
+
