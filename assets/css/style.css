@@ -17,17 +17,6 @@ body {
     overflow-x: hidden;
 }
 
-#header {
-    background-color: var(--orangebrown);
-    margin-top: 15vh;
-    height:22vh;
-    width:60vw;
-}
-
-h1 {
-    font-size: 10vh;
-}
-
 #bannertitle {
     font-size: 2vh;
 }
