@@ -7,7 +7,10 @@
 
 h1,
 h2,
-h3 { 
+h3,
+h4,
+h5,
+h6 { 
     font-family: 'Press Start 2P', cursive;
     color: white;
 }
@@ -31,6 +34,26 @@ body {
     background-color: var(--orangebrown);
     margin:30vh auto 1vh auto;
     width: auto;
+}
+
+/* #allProjects {
+    gap: 30px;
+} */
+
+.project {
+    width:200px;
+    height: 200px;
+    margin-top:1.5rem;
+    flex:1 0;
+    background-color: #008C8D;
+}
+
+.modal-content {
+    background-color: #008C8D;
+}
+
+#allProjects {
+    margin:0 1.5rem
 }
 
 @media screen and (max-width: 991px) {
