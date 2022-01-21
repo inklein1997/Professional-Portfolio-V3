@@ -25,7 +25,6 @@
     position:absolute;
     transform:translateY(67vh);
     width:100vw;
-    float: right;
 }
 
 #pipebase2 {
@@ -41,7 +40,6 @@
     position:absolute;
     transform:translateY(67vh);
     width:100vw;
-    /* float: left; */
 }
 
 #pipebase3 {
@@ -52,8 +50,9 @@
     height:13.9vh;
 }
 
-@media screen and (max-width: 768px) {
-    #pipe1 {
-        display:none
-    }
+#pipe6 {
+    z-index: 1;
+    position:absolute;
+    transform: translateY(61.3vh);
+    width:100vw;
 }

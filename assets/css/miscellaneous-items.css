@@ -25,3 +25,28 @@
     transform: translate(55vw, 81.9vh);
 }
 
+/* BOSS ITEMS */
+#githubBlock {
+    position: absolute;
+    z-index: 1;
+    transform: translate(39vw, 52vh);
+}
+
+#linkedinBlock {
+    position: absolute;
+    z-index: 1;
+    transform: translate(44vw, 52vh);
+}
+
+#emailBlock {
+    position: absolute;
+    z-index: 1;
+    transform: translate(49vw, 52vh);
+}
+
+#extraBlock {
+    position: absolute;
+    z-index: 1;
+    transform: translate(54vw, 52vh);
+}
+

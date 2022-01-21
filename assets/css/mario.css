@@ -4,3 +4,16 @@
     height:9.4vh;
     transform: translate(82vw, 78.9vh)
 }
+
+#mario-boss {
+    position: absolute;
+    z-index: 3;
+    height:9.4vh;
+    transform: translate(23vw, 68.1vh)
+}
+#bowser {
+    position: absolute;
+    z-index: 1;
+    height: 12vh;
+    transform: translate(81vw, 65.6vh);
+}
