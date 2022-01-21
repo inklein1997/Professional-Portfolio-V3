@@ -6,7 +6,8 @@
 }
 
 h1,
-h2 { 
+h2,
+h3 { 
     font-family: 'Press Start 2P', cursive;
     color: white;
 }
@@ -21,10 +22,18 @@ body {
     font-size: 2vh;
 }
 
+.center {
+    margin: 0 auto 0 auto;
+    width:auto;
+}
+
+#header {
+    background-color: var(--orangebrown);
+    margin:30vh auto 1vh auto;
+    width: auto;
+}
 
 @media screen and (max-width: 991px) {
-    #header {
-        margin-left:0
-    }
+ 
 }
 
