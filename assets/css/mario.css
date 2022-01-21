@@ -1,5 +1,6 @@
 #mario {
     position: absolute;
     z-index: 3;
+    height:9.4vh;
     transform: translate(82vw, 78.9vh)
 }
