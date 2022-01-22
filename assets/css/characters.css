@@ -22,11 +22,11 @@
     position: absolute;
     z-index: 1;
     height: 25vh;
-    transform: translate(12vw, 31vh);
+    transform: translate(27vw, 59vh);
 }
 #squid2 {
     position: absolute;
     z-index: 1;
     height: 15vh;
-    transform: translate(81vw, 46vh);
+    transform: translate(81vw, 31vh);
 }

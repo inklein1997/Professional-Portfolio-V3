@@ -76,3 +76,22 @@
     z-index: 1;
     transform: translate(66vw, 60.8vh);
 }
+
+#squidchatbox {
+    position: absolute;
+    z-index: 1;
+    height: 13vh;
+    transform: translate(34vw, 56vh);
+}
+
+#squidchatboxcontent {
+    position: absolute;
+    z-index: 2;
+    transform: translate(35.5vw, 57.4vh);
+}
+
+#underground-decoration {
+    height: 17.5vh;
+    position: absolute;
+    transform: translate(25vw, 45vh);
+}
