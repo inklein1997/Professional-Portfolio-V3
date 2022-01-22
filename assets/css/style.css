@@ -71,8 +71,21 @@ body {
     z-index: 3;
 }
 
+#topbar {
+    background-color: var(--skyblue);
+    height:5vh;
+    z-index: 1;
+    padding:1vh 1vw 0 1vh;
+    position: absolute
+}
+#topbar div h3 {
+    font-size: 1.6vw;
+}
 
-@media screen and (max-width: 991px) {
- 
+
+@media screen and (min-width: 1500px) {
+    #topbar div h3 {
+        font-size: 1.5rem;
+    }
 }
 

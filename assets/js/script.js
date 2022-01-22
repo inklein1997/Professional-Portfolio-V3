@@ -136,7 +136,7 @@ $('#aboutmecontainer').on('click', () => {
     $('#aboutmetext').text(aboutMeSnippets[aboutmecount]).append($('<span>').attr('id','waiting'))
     if (aboutmecount == 2) {
         $('#waiting').remove()
-        $('#aboutmetext').append($('<a>').attr('href','https://docs.google.com/document/d/1qxi0MSy7j9i3Fg9LYb6HlIWsYAqPzPesEEwz6lZH7-0/edit').attr('target','_blank').text('HERE')).append($('<span>').attr('id','waiting'))
+        $('#aboutmetext').append($('<a>').attr('href','https://docs.google.com/document/d/13wgjALPAew1QubTti2xNGs2z75RIJSjGPYnktDMlePk/edit?usp=sharing').attr('target','_blank').text('HERE')).append($('<span>').attr('id','waiting'))
         aboutmecount = -1
     }
     elipsesChange()
