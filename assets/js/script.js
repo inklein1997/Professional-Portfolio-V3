@@ -126,3 +126,18 @@ function elipsesChange() {
     }, 500);
 }
 elipsesChange()
+
+const aboutMeSnippets = ['Hello! My name is Michael Klein and I am currently in Austin, Texas. I began my coding career at the University of Texas at Austin coding bootcamp<span id=waiting></span>', 'Technologies that I use include: HTML5, CSS3, JavaScript, jQuery, Web and Server-side APIs, NodeJS, BootStrap, Git, and Google Cloud Services', 'If you would like to view my Resume, please click ']
+
+let aboutmecount = 0
+
+$('#aboutmecontainer').on('click', () => {
+    aboutmecount++
+    $('#aboutmetext').text(aboutMeSnippets[aboutmecount]).append($('<span>').attr('id','waiting'))
+    if (aboutmecount == 2) {
+        $('#waiting').remove()
+        $('#aboutmetext').append($('<a>').attr('href','https://docs.google.com/document/d/1qxi0MSy7j9i3Fg9LYb6HlIWsYAqPzPesEEwz6lZH7-0/edit').attr('target','_blank').text('HERE')).append($('<span>').attr('id','waiting'))
+        aboutmecount = -1
+    }
+    elipsesChange()
+})
