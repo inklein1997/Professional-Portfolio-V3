@@ -1,47 +1,47 @@
 #ground-floor {
-    background: url('../images/outside-ground.jpg');
+    background: url('../images/background-blocks/outside-ground.jpg');
     background-repeat: repeat;
     height:11.8vh
 }
 
 #underground-cieling {
-    background: url('../images/underground-cieling.jpg');
+    background: url('../images/background-blocks/underground-cieling.jpg');
     background-repeat: repeat-x;
     height:5.9vh
 }
 
 #underground-floor {
-    background: url('../images/underground-floor.jpg');
+    background: url('../images/background-blocks/underground-floor.jpg');
     background-repeat: repeat;
     height:10.6vh
 }
 
 #underwater-cieling {
-    background: url('../images/underwater-cieling.jpg');
+    background: url('../images/background-blocks/underwater-cieling.jpg');
     background-repeat: repeat;
     height:5.3vh
 }
 
 #underwater-floor {
-    background: url('../images/underwater-floor.jpg');
+    background: url('../images/background-blocks/underwater-floor.jpg');
     background-repeat: repeat;
     height:11vh
 }
 
 #boss-cieling {
-    background: url('../images/boss-cieling.jpg');
+    background: url('../images/background-blocks/boss-cieling.jpg');
     background-repeat: repeat-x;
     height:5.9vh
 }
 
 #boss-floor {
-    background: url('../images/boss-floor.jpg');
+    background: url('../images/background-blocks/boss-floor.jpg');
     background-repeat: repeat-x;
     height:11vh
 }
 
 #lava {
-    background: url('../images/lava.jpg');
+    background: url('../images/background-blocks/lava.jpg');
     background-repeat: repeat-x;
     height:5.5vh
 }
