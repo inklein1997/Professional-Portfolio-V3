@@ -50,6 +50,20 @@
     height:13.9vh;
 }
 
+#pipe4 {
+    z-index: 1;
+    position:absolute;
+    transform:translateY(67.7vh);
+    width:100vw;
+}
+
+#pipe5 {
+    z-index: 1;
+    position:absolute;
+    transform:translateY(67.7vh);
+    width:100vw;
+}
+
 #pipe6 {
     z-index: 1;
     position:absolute;

@@ -63,6 +63,15 @@ body {
     margin:0 1.5rem
 }
 
+#aboutmecontainer {
+    background-color: #25AA10;
+    position: relative;
+    margin: 0 20vw;
+    box-shadow: 3px 3px black, -3px -3px white;
+    z-index: 3;
+}
+
+
 @media screen and (max-width: 991px) {
  
 }

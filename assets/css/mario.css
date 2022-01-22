@@ -17,3 +17,16 @@
     height: 12vh;
     transform: translate(81vw, 65.6vh);
 }
+
+#squid1 {
+    position: absolute;
+    z-index: 1;
+    height: 25vh;
+    transform: translate(12vw, 31vh);
+}
+#squid2 {
+    position: absolute;
+    z-index: 1;
+    height: 15vh;
+    transform: translate(81vw, 46vh);
+}

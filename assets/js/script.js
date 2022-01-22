@@ -101,3 +101,4 @@ $('#contactLink').on('mouseout', function () {
         $("#projectsMushroom").attr('src', $("#contactMushroom").attr('data-visible'))
     }
 })
+

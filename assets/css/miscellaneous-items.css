@@ -63,3 +63,16 @@
     z-index: 2;
     transform: translate(68vw, 49vh);
 }
+
+#seabush1 {
+    position: absolute;
+    height: 11.5vh;
+    z-index: 1;
+    transform: translate(41vw, 72.2vh);
+}
+#seabush2 {
+    position: absolute;
+    height: 22.9vh;
+    z-index: 1;
+    transform: translate(66vw, 60.8vh);
+}
