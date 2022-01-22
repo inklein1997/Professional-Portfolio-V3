@@ -53,14 +53,20 @@ body {
     margin-top:1.5rem;
     flex:1 0;
     background-color: #008C8D;
+    box-shadow: 3px 3px #013d3d, -3px -3px rgb(182, 182, 182);
+}
+
+.project:hover {
+    cursor: pointer;
 }
 
 .modal-content {
     background-color: #008C8D;
+    box-shadow: 5px 5px #013d3d, -5px -5px rgb(182, 182, 182);
 }
 
 #allProjects {
-    margin:0 1.5rem
+    margin:0 1.5rem;
 }
 
 #aboutmecontainer {
@@ -81,6 +87,11 @@ body {
 #topbar div h3 {
     font-size: 1.6vw;
 }
+
+hr {
+    height:3px
+}
+
 
 
 @media screen and (min-width: 1500px) {

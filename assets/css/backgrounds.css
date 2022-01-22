@@ -12,14 +12,14 @@
 
 #underground-floor {
     background: url('../images/underground-floor.jpg');
-    background-repeat: repeat-x;
-    height:5.3vh
+    background-repeat: repeat;
+    height:10.6vh
 }
 
 #underwater-cieling {
     background: url('../images/underwater-cieling.jpg');
     background-repeat: repeat;
-    height:10.6vh
+    height:5.3vh
 }
 
 #underwater-floor {

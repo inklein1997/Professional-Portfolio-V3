@@ -127,7 +127,7 @@ function elipsesChange() {
 }
 elipsesChange()
 
-const aboutMeSnippets = ['Hello! My name is Michael Klein and I am currently in Austin, Texas. I began my coding career at the University of Texas at Austin coding bootcamp<span id=waiting></span>', 'Technologies that I use include: HTML5, CSS3, JavaScript, jQuery, Web and Server-side APIs, NodeJS, BootStrap, Git, and Google Cloud Services', 'If you would like to view my Resume, please click ']
+const aboutMeSnippets = ['Hello! My name is Michael Klein and I am currently in Austin, Texas. I began my coding career at the University of Texas at Austin coding bootcamp', 'Technologies that I use include: HTML5, CSS3, JavaScript, jQuery, Web and Server-side APIs, NodeJS, BootStrap, Git, and Google Cloud Services', 'If you would like to view my Resume, please click ']
 
 let aboutmecount = 0
 
