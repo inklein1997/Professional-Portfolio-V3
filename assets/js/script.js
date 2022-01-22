@@ -102,3 +102,27 @@ $('#contactLink').on('mouseout', function () {
     }
 })
 
+function elipsesChange() {
+    let elipses = $('#waiting')
+    let count = 0
+    setInterval(() => {
+        count++
+        switch(count) {
+            case 0:
+                elipses.text(' ')
+                break
+            case 1:
+                elipses.text('.')
+                break
+            case 2:
+                elipses.text('..')
+                break
+            case 3:
+                elipses.text('...')
+                count = -1
+                break
+        }
+           
+    }, 500);
+}
+elipsesChange()
