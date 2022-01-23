@@ -30,7 +30,7 @@ header {
 
 #titleBox {
     background-color: var(--orangebrown);
-    margin-top: 3px;
+    margin-top: 92px;
     box-shadow: 3px 3px black, -3px -3px white;
 }
 
@@ -41,6 +41,10 @@ header {
 #outsideGround {
     height: 112px;
     background:url('../images/background-blocks/outside-ground.jpg');
+}
+
+#groundSection {
+    height:100vh;
 }
 
 main {
