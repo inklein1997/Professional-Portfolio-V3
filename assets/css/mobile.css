@@ -21,14 +21,16 @@ h6 {
 
 #topBar {
     background-color: var(--skyblue);
-    padding: 15px 5vw 0 5vw;
+    width: 90vw;
+    margin: 10px auto
 }
 
-body div div h6 {
+header div div h6 {
     line-height: 1;
     font-size: 14px;
     margin: 2px;
 }
+
 header {
     background-color: var(--skyblue);
     
@@ -36,7 +38,7 @@ header {
 
 #titleBox {
     background-color: var(--orangebrown);
-    margin-top: 92px;
+    /* margin-top: 92px; */
     box-shadow: 3px 3px black, -3px -3px white;
     width: 90vw;
 }
