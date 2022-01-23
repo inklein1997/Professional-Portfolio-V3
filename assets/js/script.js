@@ -1,6 +1,13 @@
+setInterval(() => windowSize(), 1)
+
+function windowSize() {
+console.log(window.innerWidth);
+if (window.innerWidth < 992) {location.assign('mobile.html')}
+}
+
 $('#githubBlock').on('click', () => {
     console.log('click!')
-    $('#appendChatBox').append($('<a>').innerHTML = "<a href='https://github.com/inklein1997' target='_blank'><img id=chatbox src='assets/images/chatbox.png'><h6 id=chatboxcontent class=text-black>HARHARHAR!<br>trick'd ya!<br>try clicking <strong>HERE</strong></h6></a>"
+    $('#appendChatBox').append($('<a>').innerHTML = "<a href='https://github.com/inklein1997' target='_blank'><img id=chatbox src='assets/images/misc-decorations/chatbox.png'><h6 id=chatboxcontent class=text-black>HARHARHAR!<br>trick'd ya!<br>try clicking <strong>HERE</strong></h6></a>"
     )
     let timeLeft = 4
     let timerInterval = setInterval(() => {
@@ -16,7 +23,7 @@ $('#githubBlock').on('click', () => {
 
 $('#linkedinBlock').on('click', () => {
     console.log('click!')
-    $('#appendChatBox').append($('<a>').innerHTML = "<a href='https://www.linkedin.com/in/michaeljosephklein/' target='_blank'><img id=chatbox src='assets/images/chatbox.png'><h6 id=chatboxcontent class=text-black>huh... wonder<br>who brok dat<br>box... click <strong>HERE</strong></h6></a>"
+    $('#appendChatBox').append($('<a>').innerHTML = "<a href='https://www.linkedin.com/in/michaeljosephklein/' target='_blank'><img id=chatbox src='assets/images/misc-decorations/chatbox.png'><h6 id=chatboxcontent class=text-black>huh... wonder<br>who brok dat<br>box... click <strong>HERE</strong></h6></a>"
     )
     let timeLeft = 4
     let timerInterval = setInterval(() => {
@@ -32,7 +39,7 @@ $('#linkedinBlock').on('click', () => {
 
 $('#emailBlock').on('click', () => {
     console.log('click!')
-    $('#appendChatBox').append($('<a>').innerHTML = "<a href='michaelklein1997@gmail.com' target='_blank'><img id=chatbox src='assets/images/chatbox.png'><h6 id=chatboxcontent class=text-black>u hit ur hed<br>for NOTHING!<br>click <strong>HERE</strong></h6></a>"
+    $('#appendChatBox').append($('<a>').innerHTML = "<a href='michaelklein1997@gmail.com' target='_blank'><img id=chatbox src='assets/images/misc-decorations/chatbox.png'><h6 id=chatboxcontent class=text-black>u hit ur hed<br>for NOTHING!<br>click <strong>HERE</strong></h6></a>"
     )
     let timeLeft = 4
     let timerInterval = setInterval(() => {
@@ -48,7 +55,7 @@ $('#emailBlock').on('click', () => {
 
 $('#extraBlock').on('click', () => {
     console.log('click!')
-    $('#appendChatBox').append($('<a>').innerHTML = "<a href='https://tenor.com/bs6m0.gif' target='_blank'><img id=chatbox src='assets/images/chatbox.png'><h6 id=chatboxcontent class=text-black>Gwa-ha-ha!<br>I brok dat box<br>Get rek'd!</h6></a>"
+    $('#appendChatBox').append($('<a>').innerHTML = "<a href='https://tenor.com/bs6m0.gif' target='_blank'><img id=chatbox src='assets/images/misc-decorations/chatbox.png'><h6 id=chatboxcontent class=text-black>Gwa-ha-ha!<br>I brok dat box<br>Get rek'd!</h6></a>"
     )
     let timeLeft = 4
     let timerInterval = setInterval(() => {

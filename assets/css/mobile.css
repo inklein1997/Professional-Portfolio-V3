@@ -1,0 +1,118 @@
+:root {
+    --black: #000000;
+    --skyblue: #5D94FB;
+    --waterblue: #4342FF;
+    --orangebrown: #D0510C;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+nav {
+    background-color: var(--skyblue);
+}
+
+header {
+    background-color: var(--skyblue);
+    
+}
+
+#titleBox {
+    background-color: var(--orangebrown);
+    margin-top: 3px;
+    box-shadow: 3px 3px black, -3px -3px white;
+}
+
+#navList {
+    padding-bottom: 56px;
+}
+
+#outsideGround {
+    height: 112px;
+    background:url('../images/background-blocks/outside-ground.jpg');
+}
+
+main {
+    background-color: var(--black);
+}
+
+#undergroundCieling {
+    height:56px;
+    background: url('../images/background-blocks/underground-cieling.jpg');
+    width:100vw;
+    background-repeat: repeat-x;
+}
+
+.projects {
+    background-color: #008C8D;
+    margin: 0 30px
+}
+
+#undergroundGround {
+    height:98px;
+    width: 100vw;
+    background:url('../images/background-blocks/underground-floor.jpg')
+}
+
+#underwaterCieling {
+    height: 49px;
+    width: 100vw;
+    background: url('../images/background-blocks/underground-floor.jpg')
+}
+
+#underwater {
+    background-color: var(--waterblue);
+}
+
+#aboutMeContainer {
+    background-color: #25AA10;
+    box-shadow: 3px 3px black, -3px -3px white;
+    width: 90vw;
+}
+
+#underwaterGround {
+    width: 100vw;
+    margin-top: 30px;
+    height:96px;
+    background: url('../images/background-blocks/underwater-floor.jpg');
+}
+
+#boss {
+    background: var(--black);
+}
+#bossCieling {
+    width: 100vw;
+    height:44px;
+    background: url('../images/background-blocks/boss-cieling.jpg');
+}
+
+#socialBadges {
+    width: 90vw;
+
+}
+
+#bossGround {
+    width: 100vw;
+    height: 48.5px;
+    background: url('../images/background-blocks/boss-floor.jpg');
+}
+#bossLava {
+    width: 100vw;
+    height: 53px;
+    background: url('../images/background-blocks/lava.jpg');
+}
+
+footer {
+    background-color: #F83902;
+}
