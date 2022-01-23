@@ -38,7 +38,6 @@ header {
 
 #titleBox {
     background-color: var(--orangebrown);
-    /* margin-top: 92px; */
     box-shadow: 3px 3px black, -3px -3px white;
     width: 90vw;
 }
@@ -132,10 +131,8 @@ footer {
     background-color: #F83902;
 }
 
-@media screen and (max-width: 580px) {
-    header div div h6 {
-        font-size: 1.9vw;
-    } 
+@media screen and (max-width:575px) {
+    
 }
 
 @media screen and (max-width: 400px) {
@@ -155,7 +152,7 @@ footer {
     h2 {
         font-size: 6.5vw
     }
-    h3, h4, h5 {
+    h3, h4, h5, h6 {
         font-size: 5.0vw
     }
     

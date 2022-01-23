@@ -95,9 +95,3 @@
     position: absolute;
     transform: translate(25vw, 45vh);
 }
-
-@media screen and (max-width:1700px) {
-    #hill1 {
-        display:none
-    }
-}
