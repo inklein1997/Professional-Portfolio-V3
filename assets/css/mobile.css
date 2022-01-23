@@ -56,7 +56,9 @@ main {
 
 .projects {
     background-color: #008C8D;
-    margin: 0 30px
+    margin: 0 30px;
+    width: 90vw;
+    box-shadow: 3px 3px #013d3d, -3px -3px rgb(182, 182, 182);
 }
 
 #undergroundGround {
