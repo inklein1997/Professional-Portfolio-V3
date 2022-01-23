@@ -32,6 +32,7 @@ header {
     background-color: var(--orangebrown);
     margin-top: 92px;
     box-shadow: 3px 3px black, -3px -3px white;
+    width: 90vw;
 }
 
 #navList {

@@ -1,8 +1,8 @@
-setInterval(() => windowSize(), 1)
+setInterval(() => windowSize(), 500)
 
 function windowSize() {
 console.log(window.innerWidth);
-if (window.innerWidth < 992) {location.assign('mobile.html')}
+if (window.innerWidth <= 992) {location.assign('mobile.html')}
 }
 
 $('#githubBlock').on('click', () => {
